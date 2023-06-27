@@ -49,7 +49,7 @@ monitor_speed = 115200
 
 1. Create a folder called `data` in the root of your project.
 2. Copy your `.atKeys` file into the `data` folder. The file should be in the data folder like `data/@bob_key.atKeys`
-3. Put your ESP32 into download mde by holding down the `BOOT` button and pressing the `RESET` button while still holding the `BOOT` button. It should be in download mode as long as you are holding `BOOT` down.
+3. Put your ESP32 into download mode by holding down the `BOOT` button and pressing the `RESET` button while still holding the `BOOT` button. It should be in download mode as long as you are holding `BOOT` down.
 4. While it is in download mode, run the "Upload File System Image" command. This can be seen under Project Tasks > Platform usually on top of where your file explorer is on VSCode. If you don't see your project tasks, you can open the command palette via Ctrl/Cmd + Shift + P and search and run the `Project Tasks` and try run the `Explorer:` and `PlatformIO:` recommended commands.
 5. Hopefully you get a [SUCCESS]. If you don't, make sure you are using a **data** USB-A to Micro USB cable (yes some cables don't transmit data). Also make sure the ESP32 is plugged in :) (it's happened before).
 
